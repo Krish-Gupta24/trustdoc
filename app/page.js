@@ -56,7 +56,7 @@ export default function Home() {
                 alt="Doctor consultation"
                 fill
                 priority
-                className="object-cover md:pt-14 rounded-xl"
+                className="object-contain md:pt-14 rounded-xl"
               />
             </div>
           </div>
@@ -119,7 +119,7 @@ export default function Home() {
 
           <div className="mx-auto">
             {/* Clerk Pricing Table */}
-            {/*<Pricing />*/}
+            <Pricing />
 
             {/* Description */}
             <Card className="mt-12 bg-muted/20 border-emerald-900/30">
